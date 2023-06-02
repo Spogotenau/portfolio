@@ -155,7 +155,7 @@ function Startseite() {
           </div>
         </div>
       </div>
-      <div className='mt-20 mb-20 bg-gradient-to-tr from-slate-700 to-green-300 pt-12 pb-12 w-screen flex md:flex-row flex-col'>
+      <div className='mt-20 mb-20 bg-gradient-to-tr from-slate-600 to-green-300 pt-12 pb-12 w-screen flex md:flex-row flex-col'>
         <div>
           <img
             className='arbeitsPlatz md:ml-16 mx-auto'

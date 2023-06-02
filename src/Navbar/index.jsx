@@ -60,9 +60,9 @@ function Navbar() {
                 <p>Portfolio</p>
               </Link>
             </li>
-            <li className='w-full md:border-t-0 border-t-2 border-slate-700'>
+            <li className=' w-full md:border-t-0 border-t-2 border-slate-700'>
               <Link
-                className=' w-full flex justify-center py-4 md:py-0'
+                className='w-full flex justify-center py-4 md:py-0'
                 to={'/kontakt'}
               >
                 <p>Kontakt</p>
