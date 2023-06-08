@@ -11,6 +11,15 @@ body{
   overflow-x: hidden;
 }
 
+.nav{
+  background-color: rgba(30, 41, 59, .9);
+  transition: all 200ms;
+}
+
+.nav:hover, .links:hover{
+  background-color: rgba(30, 41, 59, 1);
+}
+
 .nameTitle{
 font-family: 'Roboto Mono', monospace;
 }
@@ -194,4 +203,7 @@ font-family: 'Roboto Mono', monospace;
     display: none;
   }
 
+  .links, .nav{
+    background-color: rgba(30, 41, 59, 1);
+  }
 }

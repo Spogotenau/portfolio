@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import background from '../../images/cube-background-2484131_1920.jpg'
 import me from '../../images/meHome.png'
@@ -37,9 +36,9 @@ function Startseite() {
 
   return (
     <>
-      <div className='frontPage mt-20 bg-slate-700'>
+      <div className='frontPage pt-20 bg-slate-700'>
         <div className='md:flex md:flex-row justify-between'>
-          <div className='md:ml-64 md:mt-56 md:pt-0 pt-48 ml-8'>
+          <div className='md:ml-64 md:pt-56 pt-48 ml-8'>
             <h1 className='text-gray-200 text-4xl mb-10'>Willkommen ich bin</h1>
             <h1 className='nameTitle w-max relative text-sky-700 md:text-7xl text-5xl mt-6'>
               JAN VONTOBEL
