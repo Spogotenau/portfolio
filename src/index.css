@@ -12,13 +12,20 @@ body{
 }
 
 .nav{
-  background-color: rgba(30, 41, 59, .9);
+  background-color: rgba(30, 41, 59, 0.9);
   transition: all 200ms;
+  backdrop-filter: blur(1rem);
 }
 
-.nav:hover, .links:hover{
+.links{
+  background: transparent;
+}
+
+
+.nav:hover {
   background-color: rgba(30, 41, 59, 1);
 }
+
 
 .nameTitle{
 font-family: 'Roboto Mono', monospace;
