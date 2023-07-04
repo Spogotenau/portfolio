@@ -13,6 +13,7 @@ import mongoLogo from '../../images/mongoDBLogo.png'
 import tailwindLogo from '../../images/tailwindLogo.png'
 import nodeLogo from '../../images/nodeLogo.png'
 import arbeitsPlatz from '../../images/IMG_8600.jpg'
+import lightbulb from '../../images/lightbulp.png'
 
 function Startseite() {
   useEffect(() => {
@@ -20,8 +21,6 @@ function Startseite() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('show')
-        } else {
-          entry.target.classList.remove('show')
         }
       })
     })
@@ -37,6 +36,9 @@ function Startseite() {
   return (
     <>
       <div className='frontPage pt-20 bg-slate-700'>
+        <div className='animations absolute w-screen'>
+          <img src={lightbulb} className='lightbulb h-24' />
+        </div>
         <div className='md:flex md:flex-row justify-between'>
           <div className='md:ml-64 md:pt-56 pt-48 ml-8'>
             <h1 className='text-gray-200 text-4xl mb-10'>Willkommen ich bin</h1>
@@ -75,7 +77,7 @@ function Startseite() {
           auch meine Fähigkeiten einzusetzen lerne und diese auch noch
           erweitere.
         </p>
-        <button className='mt-20 w-80 mx-auto text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
+        <button className='linkButton mt-20 w-80 mx-auto text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
           <Link to='/überMich'>Erfahren Sie mehr über mich</Link>
         </button>
       </div>

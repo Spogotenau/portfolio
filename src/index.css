@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar{
+  width: .75em;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(30 41 59);
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(172 178 186);
+  border-radius: 0.5em;
+  border:0.125em solid rgb(30 41 59);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(217 220 225);
+}
+
+@supports (scrollbar-color: red blue){
+  *{
+    scrollbar-color: rgb(172 178 186) rgb(30 41 59);
+    scrollbar-width: thin;
+  }
+}
+
 *{
   box-sizing: border-box;
 }
@@ -12,7 +37,7 @@ body{
 }
 
 .nav{
-  background-color: rgba(30, 41, 59, 0.9);
+  background-color: rgba(30, 41, 59, 0.8);
   transition: all 200ms;
   backdrop-filter: blur(1rem);
 }
@@ -116,6 +141,20 @@ font-family: 'Roboto Mono', monospace;
   transition: all 1s;
 }
 
+.hiddenLeft{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.hiddenRight{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
 .hiddenElement:nth-child(2){
   transition-delay: 200ms;
 }
@@ -165,6 +204,45 @@ font-family: 'Roboto Mono', monospace;
   width: 562.5px;
 }
 
+.rocket{
+  animation: rocket 5000ms infinite;
+}
+
+.lightbulb{
+  position: relative;
+  left: 74%;
+  margin-top: 4rem;
+  animation: lightbulb 5000ms infinite;
+}
+
+@keyframes lightbulb{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(30px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@keyframes rocket{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-50px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.meTexts{
+  background: rgba(2, 6, 23, 0.9)
+}
+
 @media screen and (max-width: 768px){
   .hiddenElement:nth-child(2){
     transition-delay: 0ms;
@@ -207,6 +285,14 @@ font-family: 'Roboto Mono', monospace;
   }
   
   .personContainer{
+    display: none;
+  }
+
+  .lightbulb{
+    display: none;
+  }
+
+  .rocket{
     display: none;
   }
 
