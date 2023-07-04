@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import me from '../../images/jan-fullwidth.jpg'
+import me from '../../images/jan-fullwidth.png'
 import rocket from '../../images/rocket.png'
 
 function AboutMe() {
