@@ -27,7 +27,7 @@ function AboutMe() {
     <>
       <div className='pt-20 pb-[9rem] bg-slate-700'>
         <div className='animations absolute w-screen'>
-          <img src={rocket} className='rocket mt-96 relative left-[80%] h-24' />
+          <img src={rocket} className='rocket mt-96 relative left-[90%] h-24' />
         </div>
         <div className='md:pt-40 md:pb-32 pt-16 flex md:flex-row flex-col'>
           <img
@@ -52,7 +52,7 @@ function AboutMe() {
                 <b>Ausbildung</b>
               </p>
               <p className=' text-sky-700 font-bold'>
-                Informatikmitelschule Baden,
+                Informatikmittelschule Baden,
                 <br /> 2. Jahr abgeschlossen
               </p>
             </div>

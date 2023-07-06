@@ -210,7 +210,8 @@ font-family: 'Roboto Mono', monospace;
 
 .lightbulb{
   position: relative;
-  left: 74%;
+  float: right;
+  margin-right: 16rem;
   margin-top: 4rem;
   animation: lightbulb 5000ms infinite;
 }

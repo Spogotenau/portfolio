@@ -41,12 +41,14 @@ function Startseite() {
         </div>
         <div className='md:flex md:flex-row justify-between'>
           <div className='md:ml-64 md:pt-56 pt-48 ml-8'>
-            <h1 className='text-gray-200 text-4xl mb-10'>Willkommen ich bin</h1>
-            <h1 className='nameTitle w-max relative text-sky-700 md:text-7xl text-5xl mt-6'>
+            <h1 className='text-gray-200 md:text-4xl text-3xl mb-10'>
+              Willkommen ich bin
+            </h1>
+            <h1 className='nameTitle w-max relative text-sky-700 md:text-7xl text-4xl mt-6'>
               JAN VONTOBEL
             </h1>
           </div>
-          <div className=' mx-auto max-w-sm relative'>
+          <div className=' mr-64 max-w-sm relative'>
             <div className='personContainer aspect-1/1.5 grid items-end overflow-hidden md:ease-in-out duration-300 md:hover:scale-110'>
               <img
                 src={background}
