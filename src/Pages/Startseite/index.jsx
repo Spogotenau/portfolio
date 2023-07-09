@@ -86,75 +86,43 @@ function Startseite() {
       <div className='flex flex-col mt-44 w-screen pt-12 pb-28 bg-gradient-to-br from-sky-500 to-green-300'>
         <h2 className='mx-auto text-2xl mb-12 font-medium'>Meine Kenntnisse</h2>
         <div className='grid md:grid-cols-5 grid-cols-1 gap-y-12 justify-items-center'>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className=' h-64 py-4 mx-auto'
-              src={jsLogo}
-              alt='Logo von JavaScript'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={jsLogo} alt='JavaScript' />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className=' h-64 py-4 mx-auto'
-              src={cssLogo}
-              alt='Logo von CSS'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={cssLogo} alt='CSS' />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className=' h-64 py-4 mx-auto'
-              src={htmlLogo}
-              alt='Logo von HTML'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={htmlLogo} alt='HTML' />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img
-              className=' h-64 py-4 mx-auto'
+              className=' h-52 py-4 mx-auto'
               src={cSharpLogo}
-              alt='Logo von C-Sharp'
+              alt='C-Sharp'
             />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className=' h-64 py-4 mx-auto'
-              src={gitLogo}
-              alt='Logo von Git'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={gitLogo} alt='Git' />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className=' h-64 py-4 mx-auto'
-              src={dockerLogo}
-              alt='Logo von Docker'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={dockerLogo} alt='Docker' />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className=' h-64 py-4 mx-auto'
-              src={reactLogo}
-              alt='Logo von React'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={reactLogo} alt='React' />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className=' h-64 py-4 mx-auto'
-              src={mongoLogo}
-              alt='Logo von MongoDB'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={mongoLogo} alt='MongoDB' />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img
-              className=' h-64 py-4 mx-auto'
+              className=' h-52 py-4 mx-auto'
               src={tailwindLogo}
-              alt='Logo von Tailwind'
+              alt='Tailwind'
             />
           </div>
-          <div className='hiddenElement bg-gray-200 w-64 rounded-xl'>
-            <img
-              className='h-64 py-4 mx-auto'
-              src={nodeLogo}
-              alt='Logo von Node js'
-            />
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className='h-52 py-4 mx-auto' src={nodeLogo} alt='Node.js' />
           </div>
         </div>
       </div>
