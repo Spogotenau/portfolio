@@ -23,8 +23,12 @@ function Projekte() {
         </div>
         <div className='project mt-20 border-2 rounded-3xl shadow-2xl shadow-slate-800 border-slate-600 overflow-hidden w-11/12 md:w-[550px] md:h-[341.75px] mx-auto'>
           <Link to='/projekte/coolet'>
-            <img src={cooLet} alt='CooLet' className=' w-[550px]' />
-            <div className='description cooLet bg-gray-300 top-[-12px] relative'>
+            <img
+              src={cooLet}
+              alt='CooLet'
+              className=' w-[550px] h-[295.92px] object-cover'
+            />
+            <div className='description cooLet bg-gray-300 top-0 relative'>
               <h1 className=' text-2xl px-2 py-1'>CooLet</h1>
               <p className=' text-lg px-2 pb-1'>
                 CooLet ist eine Lernplattform um Online Karteikarten zu lernen.
