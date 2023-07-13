@@ -313,7 +313,11 @@ font-family: 'Roboto Mono', monospace;
     background-color: rgba(30, 41, 59, 1);
   }
 
-  .project:hover .description{
+  .project:hover .weatherGuru{
     top: 0px;
 }
+
+  .project:hover .cooLet{
+    top: -12px;
+  }
 }
