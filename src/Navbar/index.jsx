@@ -75,10 +75,10 @@ function Navbar() {
             <li className='w-full md:border-t-0 border-t-2 border-slate-700'>
               <Link
                 className=' w-full flex justify-center py-4 md:py-0'
-                to={'/portfolio'}
+                to={'/projekte'}
                 onClick={handleClick}
               >
-                <p>Portfolio</p>
+                <p>Projekte</p>
               </Link>
             </li>
             <li className=' w-full md:border-t-0 border-t-2 border-slate-700'>

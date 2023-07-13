@@ -151,7 +151,7 @@ function Startseite() {
             JavaScript Framework ist.
           </p>
           <button className='mt-20 w-72 flex mx-auto justify-center text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
-            <Link to='/überMich'>Zu meinen Projekten</Link>
+            <Link to='/projekte'>Zu meinen Projekten</Link>
           </button>
         </div>
       </div>

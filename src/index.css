@@ -216,6 +216,14 @@ font-family: 'Roboto Mono', monospace;
   animation: lightbulb 5000ms infinite;
 }
 
+.project:hover .description{
+    top: -58px;
+}
+
+.description{
+  transition: top 250ms ease;
+}
+
 @keyframes lightbulb{
   0%{
     transform: translateY(0);

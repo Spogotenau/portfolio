@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import Layout from './Pages/Layout'
 import Startseite from './Pages/Startseite'
 import AboutMe from './Pages/AboutMe'
+import Projekte from './Pages/Projekte'
+import WeatherGuru from './Pages/WeatherGuru'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -23,6 +25,8 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route index element={<Startseite />} />
           <Route path='überMich' element={<AboutMe />} />
+          <Route path='projekte' element={<Projekte />} />
+          <Route path='projekte/weatherGuru' element={<WeatherGuru />} />
         </Route>
       </Routes>
     </BrowserRouter>
