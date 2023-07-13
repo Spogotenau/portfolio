@@ -39,19 +39,19 @@ function AboutMe() {
               <p>
                 <b>Name</b>
               </p>
-              <p className=' text-sky-700 font-bold'>Jan Vontobel</p>
+              <p className=' text-sky-500 font-bold'>Jan Vontobel</p>
             </div>
             <div>
               <p>
                 <b>Geburtstag</b>
               </p>
-              <p className=' text-sky-700 font-bold'>09. September 2005</p>
+              <p className=' text-sky-500 font-bold'>09. September 2005</p>
             </div>
             <div>
               <p>
                 <b>Ausbildung</b>
               </p>
-              <p className=' text-sky-700 font-bold'>
+              <p className=' text-sky-500 font-bold'>
                 Informatikmittelschule Baden,
                 <br /> 2. Jahr abgeschlossen
               </p>

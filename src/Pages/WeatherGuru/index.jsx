@@ -21,9 +21,9 @@ function weatherGuru() {
           <p>
             Weather Guru war mein erstes privates Projekt, welches ich mit React
             realisiert habe. Mithilfe von Weather Guru kann man sich die
-            aktuelle Temperatur und die der drei folgenden Tagen ausgeben lassen
-            für Orte Ihrer Wahl. Die Wetterdaten werden bei jeder Abfrage von
-            einer Wetter API geholt.
+            aktuelle Temperatur und die, der drei folgenden Tagen ausgeben
+            lassen für Orte Ihrer Wahl. Die Wetterdaten werden bei jeder Abfrage
+            von einer Wetter API geholt.
           </p>
         </div>
         <div className='mt-16 mx-auto md:w-2/5 w-5/6 mb-16'>

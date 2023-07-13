@@ -216,8 +216,12 @@ font-family: 'Roboto Mono', monospace;
   animation: lightbulb 5000ms infinite;
 }
 
-.project:hover .description{
+.project:hover .weatherGuru{
     top: -58px;
+}
+
+.project:hover .cooLet{
+  top: -40px;
 }
 
 .description{
@@ -308,4 +312,8 @@ font-family: 'Roboto Mono', monospace;
   .links, .nav{
     background-color: rgba(30, 41, 59, 1);
   }
+
+  .project:hover .description{
+    top: 0px;
+}
 }

@@ -6,6 +6,7 @@ import Startseite from './Pages/Startseite'
 import AboutMe from './Pages/AboutMe'
 import Projekte from './Pages/Projekte'
 import WeatherGuru from './Pages/WeatherGuru'
+import CooLet from './Pages/CooLet'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -27,6 +28,7 @@ function App() {
           <Route path='überMich' element={<AboutMe />} />
           <Route path='projekte' element={<Projekte />} />
           <Route path='projekte/weatherGuru' element={<WeatherGuru />} />
+          <Route path='projekte/cooLet' element={<CooLet />} />
         </Route>
       </Routes>
     </BrowserRouter>
