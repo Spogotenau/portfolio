@@ -26,7 +26,7 @@ function Projekte() {
             <img
               src={cooLet}
               alt='CooLet'
-              className=' w-[550px] h-[295.92px] object-cover'
+              className=' w-[550px] md:h-[295.92px] md:object-cover'
             />
             <div className='description cooLet bg-gray-300 top-0 relative'>
               <h1 className=' text-2xl px-2 py-1'>CooLet</h1>
