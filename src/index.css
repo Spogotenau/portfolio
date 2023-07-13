@@ -318,6 +318,6 @@ font-family: 'Roboto Mono', monospace;
 }
 
   .project:hover .cooLet{
-    top: -12px;
+    top: 0px;
   }
 }
