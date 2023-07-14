@@ -29,7 +29,7 @@ function AboutMe() {
         <div className='animations absolute w-screen'>
           <img src={rocket} className='rocket mt-96 relative left-[90%] h-24' />
         </div>
-        <div className='md:pt-40 md:pb-32 pt-16 flex md:flex-row flex-col'>
+        <div className='md:pt-40 md:pb-32 pt-16 flex md:flex-row flex-col relative'>
           <img
             src={me}
             className='ml-auto mr-auto md:ml-64 md:mr-12 h-80 w-80 md:h-96 md:w-96 object-cover rounded-full'

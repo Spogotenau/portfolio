@@ -79,7 +79,7 @@ function Startseite() {
           auch meine Fähigkeiten einzusetzen lerne und diese auch noch
           erweitere.
         </p>
-        <button className='linkButton mt-20 w-80 mx-auto text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
+        <button className='linkButton mt-20 mx-auto text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
           <Link to='/überMich'>Erfahren Sie mehr über mich</Link>
         </button>
       </div>
@@ -150,7 +150,7 @@ function Startseite() {
             interessant funktioniert und auch nach Daten das meist benutzte
             JavaScript Framework ist.
           </p>
-          <button className='mt-20 w-72 flex mx-auto justify-center text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
+          <button className='mt-20 flex mx-auto justify-center text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
             <Link to='/projekte'>Zu meinen Projekten</Link>
           </button>
         </div>
