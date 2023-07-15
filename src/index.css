@@ -191,6 +191,7 @@ font-family: 'Roboto Mono', monospace;
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+  transform: translateY(0);
 }
 
 @media(prefers-reduced-motion){
@@ -217,7 +218,7 @@ font-family: 'Roboto Mono', monospace;
 }
 
 .project:hover .weatherGuru{
-    top: -58px;
+    top: -56px;
 }
 
 .project:hover .cooLet{
@@ -225,7 +226,31 @@ font-family: 'Roboto Mono', monospace;
 }
 
 .project:hover .pwGolem{
-  top: -58px;
+  top: -56px;
+}
+
+.project:hover .shoeBackend{
+  top: -56px;
+}
+
+.project:hover .quizGame{
+  top: -56px;
+}
+
+.project:hover .rockPaperScissors{
+  top: -28px;
+}
+
+.project:hover .todoList{
+  top: -28px;
+}
+
+.project:hover .randomFact{
+  top: -56px;
+}
+
+.project:hover .portfolioWebsite{
+  top: -56px;
 }
 
 .description{

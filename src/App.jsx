@@ -8,6 +8,12 @@ import Projekte from './Pages/Projekte'
 import WeatherGuru from './Pages/WeatherGuru'
 import CooLet from './Pages/CooLet'
 import PasswordGolem from './Pages/PasswordGolem'
+import ShoeBackend from './Pages/ShoeBackend'
+import QuizGame from './Pages/QuizGame'
+import RockPaperScissors from './Pages/RockPaperScissors'
+import TodoList from './Pages/TodoList'
+import RandomFact from './Pages/RandomFact'
+import Portfolio from './Pages/PortfolioWebsite'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -31,6 +37,15 @@ function App() {
           <Route path='projekte/weatherGuru' element={<WeatherGuru />} />
           <Route path='projekte/cooLet' element={<CooLet />} />
           <Route path='projekte/passwordGolem' element={<PasswordGolem />} />
+          <Route path='projekte/meinErstesBackend' element={<ShoeBackend />} />
+          <Route path='projekte/quizGame' element={<QuizGame />} />
+          <Route
+            path='projekte/schereSteinPapier'
+            element={<RockPaperScissors />}
+          />
+          <Route path='projekte/todoListe' element={<TodoList />} />
+          <Route path='projekte/randomFact' element={<RandomFact />} />
+          <Route path='projekte/portfolio' element={<Portfolio />} />
         </Route>
       </Routes>
     </BrowserRouter>
