@@ -10,6 +10,8 @@ function weatherGuru() {
         <h1 className=' text-center text-xl md:text-2xl '>
           <Link
             to='https://github.com/SpogotenauPOGGERS/weatherapp'
+            target='_blank'
+            rel='noopener noreferrer'
             className='hover:text-sky-700'
           >
             &lt;Github Link /&gt;

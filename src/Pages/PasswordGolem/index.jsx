@@ -10,6 +10,8 @@ function PasswordGolem() {
         <h1 className=' text-center text-xl md:text-2xl '>
           <Link
             to='https://github.com/TheSolian/Password-Golem'
+            target='_blank'
+            rel='noopener noreferrer'
             className='hover:text-sky-700'
           >
             &lt;Github Link /&gt;
@@ -32,7 +34,11 @@ function PasswordGolem() {
           </p>
         </div>
         <button className='linkButton mt-16 flex mx-auto text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
-          <Link to='https://portfolio.bbbaden.ch/view/view.php?t=e33cd1c3c2c7b0d53d86'>
+          <Link
+            to='https://portfolio.bbbaden.ch/view/view.php?t=e33cd1c3c2c7b0d53d86'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Zum detailierten Mahara Portfolio
           </Link>
         </button>
