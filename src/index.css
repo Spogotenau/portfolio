@@ -187,6 +187,13 @@ font-family: 'Roboto Mono', monospace;
   transition-delay: 800ms;
 }
 
+.hiddenContact{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 700ms;
+}
+
 .show{
   opacity: 1;
   filter: blur(0);

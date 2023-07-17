@@ -12,6 +12,8 @@ import dockerLogo from '../../images/dockerLogo.png'
 import mongoLogo from '../../images/mongoDBLogo.png'
 import tailwindLogo from '../../images/tailwindLogo.png'
 import nodeLogo from '../../images/nodeLogo.png'
+import firebaseLogo from '../../images/firebaseLogo.png'
+import aspDotNetLogo from '../../images/ASPNETLogo.png'
 import arbeitsPlatz from '../../images/IMG_8600.jpg'
 import lightbulb from '../../images/lightbulp.png'
 
@@ -88,12 +90,15 @@ function Startseite() {
         <div className='grid md:grid-cols-5 grid-cols-1 gap-y-12 justify-items-center'>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={jsLogo} alt='JavaScript' />
+            <h1 className=' text-center text-lg'>JavaScript</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={cssLogo} alt='CSS' />
+            <h1 className=' text-center text-lg'>CSS</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={htmlLogo} alt='HTML' />
+            <h1 className=' text-center text-lg'>HTML</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img
@@ -101,18 +106,31 @@ function Startseite() {
               src={cSharpLogo}
               alt='C-Sharp'
             />
+            <h1 className=' text-center text-lg'>C#</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={gitLogo} alt='Git' />
+            <h1 className=' text-center text-lg'>Git</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={dockerLogo} alt='Docker' />
+            <h1 className=' text-center text-lg'>Docker</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={reactLogo} alt='React' />
+            <h1 className=' text-center text-lg'>React</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={mongoLogo} alt='MongoDB' />
+            <h1 className=' text-center text-lg'>MongoDB</h1>
+          </div>
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img
+              className=' h-52 py-4 mx-auto'
+              src={firebaseLogo}
+              alt='Firebase'
+            />
+            <h1 className=' text-center text-lg'>Firebase</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img
@@ -120,9 +138,19 @@ function Startseite() {
               src={tailwindLogo}
               alt='Tailwind'
             />
+            <h1 className=' text-center text-lg'>Tailwind CSS</h1>
+          </div>
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img
+              className=' h-52 py-4 mx-auto'
+              src={aspDotNetLogo}
+              alt='ASP.NET'
+            />
+            <h1 className=' text-center text-lg'>ASP.NET</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className='h-52 py-4 mx-auto' src={nodeLogo} alt='Node.js' />
+            <h1 className=' text-center text-lg'>Node</h1>
           </div>
         </div>
       </div>

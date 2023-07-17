@@ -14,6 +14,7 @@ import RockPaperScissors from './Pages/RockPaperScissors'
 import TodoList from './Pages/TodoList'
 import RandomFact from './Pages/RandomFact'
 import Portfolio from './Pages/PortfolioWebsite'
+import Contact from './Pages/Contact'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -46,6 +47,7 @@ function App() {
           <Route path='projekte/todoListe' element={<TodoList />} />
           <Route path='projekte/randomFact' element={<RandomFact />} />
           <Route path='projekte/portfolio' element={<Portfolio />} />
+          <Route path='kontakt' element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
