@@ -25,7 +25,7 @@ function weatherGuru() {
             realisiert habe. Zusätzlich habe ich mit Tailwind CSS gearbeitet.
             Mithilfe von Weather Guru kann man sich die aktuelle Temperatur und
             die, der drei folgenden Tagen ausgeben lassen für Orte Ihrer Wahl.
-            Die Wetterdaten werden bei jeder Abfrage von einer Wetter API
+            Die Wetterdaten werden bei jeder Abfrage von einer Wetter-API
             geholt.
           </p>
         </div>

@@ -130,7 +130,7 @@ function Projekte() {
               className=' w-[550px] md:h-[295.92px] md:object-cover'
             />
             <div className='description todoList bg-gray-300 top-0 relative'>
-              <h1 className=' text-2xl px-2 py-1'>Todo Liste</h1>
+              <h1 className=' text-2xl px-2 py-1'>To-do-Liste</h1>
               <p className=' text-lg px-2 pb-1'>
                 Dieses Projekt ist eine kleine Todo Liste.
               </p>

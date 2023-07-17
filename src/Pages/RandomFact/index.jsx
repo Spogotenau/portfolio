@@ -21,11 +21,11 @@ function RandomFact() {
       <div>
         <div className=' text-lg mt-16 mx-4 md:mx-auto md:w-2/5 p-8 bg-gray-300 rounded-xl'>
           <p>
-            Random Fact gehörte zu einem meiner ersten privaten JavaScript
-            Projekten. Das Programm funktioniert wie folgt, klickt der Nutzer
-            auf den Button in der Mitte der Seite, erscheint ein zufälliger
-            Fun-Fact. Der Nutzer hat alle zehn Sekunden die Möglichkeit sich
-            einen neuen zufälligen Fun-Fact auszugeben.
+            Random Fact gehörte zu einem meiner ersten privaten
+            JavaScriptprojekten. Das Programm funktioniert wie folgt, klickt der
+            Nutzer auf den Button in der Mitte der Seite, erscheint ein
+            zufälliger Fun Fact. Der Nutzer hat alle zehn Sekunden die
+            Möglichkeit sich einen neuen zufälligen Fun Fact auszugeben.
           </p>
         </div>
         <div className='mt-16 mx-auto md:w-2/5 w-5/6 mb-16'>

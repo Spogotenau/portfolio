@@ -5,7 +5,7 @@ function TodoList() {
     <>
       <div className='pt-28 pb-[2.5rem] bg-slate-700 text-gray-200'>
         <h1 className='text-center text-sky-700 font-bold text-2xl md:text-3xl'>
-          Todo Liste
+          To-do-Liste
         </h1>
         <h1 className=' text-center text-xl md:text-2xl '>
           <Link
@@ -21,12 +21,12 @@ function TodoList() {
       <div>
         <div className=' text-lg mt-16 mx-4 md:mx-auto md:w-2/5 p-8 bg-gray-300 rounded-xl'>
           <p>
-            Dieses Projekt war eines meiner ersten privaten JavaScript
-            Projekten. Bei dem Projekt handelt es sich um eine Todo Liste. Der
-            Nutzer kann neue Todo&apos;s hinzufügen zu seiner Liste. Durch das
-            Klicken auf den Edit Button der einzelnen Todo&apos;s können diese
-            auch bearbeitet werden. Ist ein Todo abgeschlossen kann man auf das
-            Todo klicken und es wird durchgestrichen.
+            Dieses Projekt war eines meiner ersten privaten JavaScriptprojekten.
+            Bei dem Projekt handelt es sich um eine To-do-Liste. Der Nutzer kann
+            neue To-dos hinzufügen zu seiner Liste. Durch das Klicken auf den
+            Edit Button der einzelnen To-dos können diese auch bearbeitet
+            werden. Ist ein To-do abgeschlossen, kann man auf das To-do klicken
+            und es wird durchgestrichen.
           </p>
         </div>
         <div className='mt-16 mx-auto md:w-2/5 w-5/6 mb-16'>

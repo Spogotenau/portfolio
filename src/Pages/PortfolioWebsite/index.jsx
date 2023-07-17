@@ -21,7 +21,7 @@ function Portfolio() {
       <div>
         <div className=' text-lg mt-16 mx-4 md:mx-auto md:w-2/5 p-8 bg-gray-300 rounded-xl'>
           <p>
-            Auch diese Website, worauf Sie sich jetzt gerade befinden ist ein
+            Auch diese Website, auf der Sie sich jetzt gerade befinden, ist ein
             Projekt von mir. Diese Website hat das Ziel, mich vorzustellen.
             Leser können durch das Lesen der Website mehr über mich und meine
             Arbeit erfahren. Die Seite habe ich mit React und Tailwind CSS

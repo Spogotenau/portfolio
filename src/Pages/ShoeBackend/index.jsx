@@ -21,17 +21,17 @@ function ShoeBackend() {
       <div>
         <div className=' text-lg mt-16 mx-4 md:mx-auto md:w-2/5 p-8 bg-gray-300 rounded-xl'>
           <p>
-            Dieses Projekt wurde in unserem Praxiskurs dem
+            Dieses Projekt wurde in unserem Praxiskurs, dem
             &quot;Lernatelier&quot; durchgeführt. Ich habe mich mit Node ein
-            Backend erstellt, welches Login und Registrierungsfunktionen besitzt
-            und verschiedene Schuhe aus einem Array abruft und verändern lässt
-            mittels CRUD operationen. Das Projekt habe ich durchgeführt bevor
-            wir das Modul über Backends bearbeitet haben, somit dachte ich auch
-            nach dem Projekt, dass das Backendmodul einfach wird. Nachdem wir
-            jetzt das Backendmodul bearbeitet haben, bin ich sehr glücklich,
+            Backend erstellt, welches über eine Login und Registrierung-Funktion
+            verfügt und verschiedene Schuhe aus einem Array abruft und verändern
+            lässt mittels CRUD Operationen. Das Projekt habe ich durchgeführt,
+            bevor wir das Modul über Backends bearbeitet haben, somit dachte ich
+            auch nach dem Projekt, dass das Backendmodul einfach wird. Nachdem
+            wir jetzt das Backendmodul bearbeitet haben, bin ich sehr glücklich,
             dass ich nicht gewartet habe auf das Backendmodul. Ich bin jetzt in
-            der Lage ein Backend zu erstellen mit ASP.NET aber auch mit Node,
-            was ich mir abseits eines Moduls erlernt habe.
+            der Lage ein Backend zu erstellen, mit ASP.NET aber auch mit Node,
+            was ich mir abseits eines Moduls angeeignet habe.
           </p>
         </div>
         <button className='linkButton mt-16 flex mx-auto text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>

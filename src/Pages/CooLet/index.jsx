@@ -21,7 +21,7 @@ function CooLet() {
       <div>
         <div className=' text-lg mt-16 mx-4 md:mx-auto md:w-2/5 p-8 bg-gray-300 rounded-xl'>
           <p>
-            Dieses Projekt wurde in unserem Praxiskurs dem
+            Dieses Projekt wurde in unserem Praxiskurs, dem
             &quot;Lernatelier&quot; durchgeführt. CooLet ist eine Lernplattform,
             die es Nutzern ermöglicht ihre Karteikarten Online zu lernen. Nutzer
             können vorgeschlagene Lernsets lernen oder auch bestimmte Lernsets

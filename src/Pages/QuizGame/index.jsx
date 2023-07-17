@@ -21,19 +21,19 @@ function QuizGame() {
       <div>
         <div className=' text-lg mt-16 mx-4 md:mx-auto md:w-2/5 p-8 bg-gray-300 rounded-xl'>
           <p>
-            Dieses Projekt wurde in unserem Praxiskurs dem
+            Dieses Projekt wurde in unserem Praxiskurs, dem
             &quot;Lernatelier&quot; durchgeführt und war mein erstes Projekt mit
             JavaScript. Wie der Name des Projekts es schon sagt, geht es hier um
             ein Quiz Spiel. Der Nutzer bekommt eine Frage mit vier
             Antwortmöglichkeiten, wovon eine richtig ist. Durch jede richtige
-            Antwort bekommt man Punkte, antwortet man falsch ist die Spielrunde
+            Antwort bekommt man Punkte, antwortet man falsch, ist die Spielrunde
             vorbei und man muss wieder bei 0 Punkten starten. Wie ich es auch in
             meinem Mahara Beitrag geschrieben habe, erwähne ich es auch noch
-            hier. Das Projekt habe ich fast 100% von einem YouTube Video
+            hier. Das Projekt habe ich fast 100 % von einem YouTube Video
             kopiert. Wieso ich es trotzdem hier aufliste? Als ich dieses Projekt
             begonnen habe, hatte ich noch keine Ahnung von JavaScript und der
-            DOM Manipulation. Doch durch das Durcharbeiten dieses YouTube Videos
-            habe ich besser verstanden wie dieses Programm funktioniert. Und
+            DOM Manipulation. Doch durch das Durcharbeiten dieses YouTube-Videos
+            habe ich besser verstanden, wie dieses Programm funktioniert. Und
             dieses Projekt hat auch eine grosse Rolle gespielt, bei der
             Entstehung zu meiner Leidenschaft zu JavaScript.
           </p>

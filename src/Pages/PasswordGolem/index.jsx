@@ -21,16 +21,17 @@ function PasswordGolem() {
       <div>
         <div className=' text-lg mt-16 mx-4 md:mx-auto md:w-2/5 p-8 bg-gray-300 rounded-xl'>
           <p>
-            Dieses Projekt wurde in unserem Praxiskurs dem
+            Dieses Projekt wurde in unserem Praxiskurs, dem
             &quot;Lernatelier&quot; durchgeführt. Password Golem ist ein
             Passwortmanager, der den Nutzern die Möglichkeit bietet ihre
             Passwörter zu speichern. Ebenfalls können Nutzer sich auch
-            Passwörter nach ihren Belieben erstellen lassen. Das Projekt habe
-            ich zusammen mit einem Mitschüler Realisiert. Das Projekt wurde mit
-            React realisiert und es wurde Tailwind CSS benutzt. Die Nutzerdaten
-            wie auch die Passwörter werden auf einer Firebase Datenbank
-            gespeichert. Bei diesen Projekt habe ich nur an dem Frontend
-            gearbeitet, da dies eines meiner ersten Projekte mit React war.
+            Passwörter nach Ihren Vorstellungen erstellen lassen. Das Projekt
+            habe ich zusammen mit einem Mitschüler realisiert. Das Projekt wurde
+            mit React realisiert und es wurde Tailwind CSS benutzt. Die
+            Nutzerdaten wie auch die Passwörter werden auf einer Firebase
+            Datenbank gespeichert. Bei diesem Projekt habe ich nur an dem
+            Frontend gearbeitet, da dies eines meiner ersten Projekte mit React
+            war.
           </p>
         </div>
         <button className='linkButton mt-16 flex mx-auto text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
