@@ -187,6 +187,10 @@ font-family: 'Roboto Mono', monospace;
   transition-delay: 800ms;
 }
 
+.hiddenElement:nth-child(12){
+  transition-delay: 200ms;
+}
+
 .hiddenContact{
   opacity: 0;
   filter: blur(5px);
@@ -322,6 +326,10 @@ font-family: 'Roboto Mono', monospace;
   }
   
   .hiddenElement:nth-child(10){
+    transition-delay: 0ms;
+  }
+
+  .hiddenElement:nth-child(12){
     transition-delay: 0ms;
   }
 

@@ -18,7 +18,11 @@ function Projekte() {
       <div className=' grid md:grid-cols-2 overflow-hidden pb-20'>
         <div className='project mt-20 border-2 rounded-3xl shadow-2xl shadow-slate-800 border-slate-600 overflow-hidden w-11/12 md:w-[550px] md:h-[341.75px] mx-auto'>
           <Link to='/projekte/weatherguru'>
-            <img src={weatherApp} alt='Weather Guru' className=' w-[550px]' />
+            <img
+              src={weatherApp}
+              alt='Weather Guru'
+              className=' w-[550px] md:h-[295.92px] md:object-cover'
+            />
             <div className='description weatherGuru bg-gray-300 top-0 relative'>
               <h1 className=' text-2xl px-2 py-1'>Weather Guru</h1>
               <p className=' text-lg px-2 pb-1'>
