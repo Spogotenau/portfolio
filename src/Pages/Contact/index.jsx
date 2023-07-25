@@ -20,10 +20,10 @@ function Contact() {
   }, [])
   return (
     <>
-      <div className='hiddenContact mt-60 w-10/12 rounded-lg p-6 md:w-1/3 mx-auto bg-slate-800 text-gray-200'>
+      <div className='hiddenContact mt-60 w-10/12 rounded-lg p-6 md:w-1/3 mx-auto shadow-2xl shadow-slate-800 text-gray-200'>
         <h1 className='text-lg pb-4'>
           Über ein persönliches Kennenlernen würde ich mich sehr freuen.
-          Erreichbar bin ich unter folgenden Adressen.
+          Erreichbar bin ich unter folgenden Adressen:
         </h1>
         <div className='pb-4'>
           <h1 className='text-lg text-center'>E-Mail</h1>

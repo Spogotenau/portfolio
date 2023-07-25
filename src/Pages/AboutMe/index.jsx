@@ -52,7 +52,7 @@ function AboutMe() {
                 <b>Ausbildung</b>
               </p>
               <p className=' text-sky-500 font-bold'>
-                Informatikmittelschule Baden,
+                Informatikmittelschule IMS Baden,
                 <br /> 2. Jahr abgeschlossen
               </p>
             </div>
@@ -76,7 +76,7 @@ function AboutMe() {
               &quot;In meiner Freizeit unternehme ich gerne Dinge mit meinen
               Freunden. Zudem gehe ich seit einem Jahr 3 Mal wöchentlich ins
               Fitnessstudio um meinen Körper so wie meine Psyche gesund zu
-              behalten. Auch höre ich sehr gerne Podcasts über verschiedenste
+              halten. Auch höre ich sehr gerne Podcasts über verschiedenste
               Themen an.&quot;
             </i>
           </p>
@@ -84,11 +84,12 @@ function AboutMe() {
         <div className='hiddenLeft meTexts rounded-lg ml-6 md:ml-24 mt-24 mb-24 w-[285px] md:w-[800px] p-8 text-gray-200 text-lg'>
           <p>
             <i>
-              &quot;Ich bin immer offen und interessiert daran, Neues zu lernen,
-              und erweise auch eine gewisse Disziplin, die man oftmals braucht.
-              Mein Ziel langfristig ist es immer am Zahn der Zeit zu sein, genau
-              für das muss man immer offen sein Neues zu lernen und
-              verwenden.&quot;
+              &quot;Ich bin immer offen und interessiert, Neues zu lernen, und
+              erweise auch eine gewisse Disziplin, die man braucht. Ebenfalls
+              falle ich besonders als verantwortungsbewusste Person auf, und das
+              schon seit jungen Jahren. Mein langfristiges Ziel besteht darin,
+              stets aktuell zu bleiben und mich kontinuierlich für das Lernen
+              und die Anwendung von Neuem zu öffnen.&quot;
             </i>
           </p>
         </div>
