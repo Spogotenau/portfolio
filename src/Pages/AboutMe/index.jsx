@@ -43,7 +43,7 @@ function AboutMe() {
             </div>
             <div>
               <p>
-                <b>Geburtstag</b>
+                <b>Geburtsdatum</b>
               </p>
               <p className=' text-sky-500 font-bold'>09. September 2005</p>
             </div>
@@ -63,20 +63,20 @@ function AboutMe() {
         <div className='hiddenLeft meTexts rounded-lg ml-6 md:ml-24 mt-24 w-[285px] md:w-[800px] p-8 text-gray-200 text-lg'>
           <p>
             <i>
-              &quot;Ich möchte lernen, wie ich in einem Arbeitsumfeld mit
-              Mitarbeitern arbeite. Sicherlich bin ich noch kein Profi in meiner
-              Arbeit und in der mit anderen, doch um besser zu werden möchte ich
-              direkte praktische Erfahrung sammeln und daraus lernen.&quot;
+              &quot;Ich möchte lernen, wie ich in einem Arbeitsumfeld mit einem
+              Team arbeite. Sicherlich bin ich noch kein Profi, deshalb möchte
+              ich jetzt Erfahrungen in meinem Praktikum sammeln, um daraus zu
+              lernen.&quot;
             </i>
           </p>
         </div>
         <div className='hiddenRight meTexts rounded-lg float-right ml-auto mr-6 md:mr-24 mt-24 w-[285px] md:w-[800px] p-8 text-gray-200 text-lg'>
           <p>
             <i>
-              &quot;In meiner Freizeit unternehme ich gerne Dinge mit meinen
-              Freunden. Zudem gehe ich seit einem Jahr 3 Mal wöchentlich ins
-              Fitnessstudio um meinen Körper so wie meine Psyche gesund zu
-              halten. Auch höre ich sehr gerne Podcasts über verschiedenste
+              &quot;In meiner Freizeit bin ich gerne mit meinen Freunden
+              unterwegs. Zudem besuche ich seit einem Jahr 3 mal wöchentlich ein
+              Fitnessstudio, um meinen Körper sowie meine Psyche, gesund zu
+              halten. Ich höre mir sehr gerne Podcasts über verschiedenste
               Themen an.&quot;
             </i>
           </p>
@@ -84,12 +84,12 @@ function AboutMe() {
         <div className='hiddenLeft meTexts rounded-lg ml-6 md:ml-24 mt-24 mb-24 w-[285px] md:w-[800px] p-8 text-gray-200 text-lg'>
           <p>
             <i>
-              &quot;Ich bin immer offen und interessiert, Neues zu lernen, und
-              erweise auch eine gewisse Disziplin, die man braucht. Ebenfalls
-              falle ich besonders als verantwortungsbewusste Person auf, und das
-              schon seit jungen Jahren. Mein langfristiges Ziel besteht darin,
-              stets aktuell zu bleiben und mich kontinuierlich für das Lernen
-              und die Anwendung von Neuem zu öffnen.&quot;
+              &quot;Ich bin immer offen und interessiert, Neues zu lernen.
+              Weitere Stärken von mir sind mein Verantwortungsbewusstsein und
+              meine Zuverlässigkeit und das schon seit meiner jüngsten Kindheit.
+              Langfristig gedacht, möchte ich stets aktuell bleiben und mich
+              kontinuierlich für das Lernen und Anwenden von neuem offen
+              zeigen.&quot;
             </i>
           </p>
         </div>

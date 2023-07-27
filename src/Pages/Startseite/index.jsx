@@ -72,8 +72,8 @@ function Startseite() {
         </h2>
         <p className='mx-auto text-xl max-w-2xl'>
           In den letzten 2 Jahren habe ich eine Leidenschaft für die
-          Applikationsentwicklung entwickelt, die ich vor meinem Beitritt an der
-          Informatikmittelschule nicht erwartet hätte. Mit dem besonderen Fokus
+          Applikationsentwicklung entdeckt, die ich vor meinem Eintritt in die
+          Informatikmittelschule so nicht erwartet hätte. Mit besonderem Fokus
           auf die Webentwicklung habe ich schon einige schulische, wie auch
           private Projekte realisiert. In der Entwicklung von Webseiten kann ich
           meiner Kreativität freien lauf lassen und mir immer wieder neue
@@ -167,16 +167,16 @@ function Startseite() {
             Meine Projekte
           </h2>
           <p className='text-xl max-w-2xl text-slate-700'>
-            Aus Neugier zu neuen Methoden um Projekte zu realisieren, stelle ich
-            mich bei jedem meiner Projekte neuen Herausforderungen. Mit einer
-            Liebe fürs Detail gefällt mir die Arbeit im Webbereich am besten,
-            weshalb ein Grossteil meiner privaten Projekte auch Webapplikationen
-            sind. Dennoch bin ich ebenfalls qualifiziert dafür, mit C# zu
-            arbeiten. In Verbindung mit der Webentwicklung kann ich C# daher
-            auch in der Entwicklung von Backends anwenden. Momentan bin ich
-            dabei erste Projekte mit dem JavaScript Framework React zu
-            realisieren, da dieses Framework interessant funktioniert und auch
-            nach Daten eines der meistbenutzten JavaScript Frameworks ist.
+            Aus Neugier gegenüber neuen Methoden um Projekte zu realisieren,
+            stelle ich mich bei jedem meiner Projekte neuen Herausforderungen.
+            Mit einer Liebe fürs Detail gefällt mir die Arbeit im Webbereich am
+            besten, weshalb ein Grossteil meiner privaten Projekte auch
+            Webapplikationen sind. Ich programmiere auch mit C#. In Verbindung
+            mit der Webentwicklung kann ich C# dann auch in der Entwicklung von
+            Backends anwenden. Momentan bin ich dabei, erste Projekte mit dem
+            JavaScript Framework React zu realisieren, da dieses Framework sehr
+            interessant ist und auch eines der meistbenutzten JavaScript
+            Frameworks ist.
           </p>
           <button className='mt-20 flex mx-auto justify-center text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
             <Link to='/projekte'>Zu meinen Projekten</Link>
