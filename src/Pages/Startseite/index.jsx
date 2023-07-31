@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import background from '../../images/cube-background-2484131_1920.jpg'
-import me from '../../images/meHome.png'
+import me from '../../images/mehomeNew.png'
 import jsLogo from '../../images/jsLogo.png'
 import htmlLogo from '../../images/hmtlLogo.png'
 import cssLogo from '../../images/cssLogo.png'
@@ -60,7 +60,7 @@ function Startseite() {
               <img
                 src={me}
                 alt='Bild von mir Jan Vontobel'
-                className='personImg relative z-20 right-5 md:ease-in-out duration-300'
+                className='personImg relative z-20 left-4 md:ease-in-out duration-300'
               />
             </div>
           </div>
