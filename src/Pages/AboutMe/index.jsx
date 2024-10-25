@@ -53,7 +53,7 @@ function AboutMe() {
               </p>
               <p className=' text-sky-500 font-bold'>
                 Informatikmittelschule IMS Baden,
-                <br /> 2. Jahr abgeschlossen
+                <br /> 3. Jahr abgeschlossen
               </p>
             </div>
           </div>
@@ -74,10 +74,11 @@ function AboutMe() {
           <p>
             <i>
               &quot;In meiner Freizeit bin ich gerne mit meinen Freunden
-              unterwegs. Zudem besuche ich seit einem Jahr 3 mal wöchentlich ein
-              Fitnessstudio, um meinen Körper sowie meine Psyche, gesund zu
-              halten. Ich höre mir sehr gerne Podcasts über verschiedenste
-              Themen an.&quot;
+              unterwegs. Zudem besuche ich seit mehreren Jahren mehrmals
+              wöchentlich ein Fitnessstudio, um meinen Körper sowie meine Psyche
+              gesund zu halten. Ich lese gerne Bücher, sofern ich die Zeit dazu
+              finde. Ebenfalls höre ich mir sehr gerne Podcasts über
+              verschiedenste Themen an.&quot;
             </i>
           </p>
         </div>

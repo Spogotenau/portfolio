@@ -15,6 +15,7 @@ import TodoList from './Pages/TodoList'
 import RandomFact from './Pages/RandomFact'
 import Portfolio from './Pages/PortfolioWebsite'
 import Contact from './Pages/Contact'
+import EcoMania from './Pages/EcoMania'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -34,19 +35,19 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route index element={<Startseite />} />
           <Route path='überMich' element={<AboutMe />} />
-          <Route path='projekte' element={<Projekte />} />
-          <Route path='projekte/weatherGuru' element={<WeatherGuru />} />
-          <Route path='projekte/cooLet' element={<CooLet />} />
-          <Route path='projekte/passwordGolem' element={<PasswordGolem />} />
-          <Route path='projekte/meinErstesBackend' element={<ShoeBackend />} />
-          <Route path='projekte/quizGame' element={<QuizGame />} />
-          <Route
-            path='projekte/schereSteinPapier'
-            element={<RockPaperScissors />}
-          />
-          <Route path='projekte/todoListe' element={<TodoList />} />
-          <Route path='projekte/randomFact' element={<RandomFact />} />
-          <Route path='projekte/portfolio' element={<Portfolio />} />
+          <Route path='projekte'>
+            <Route index element={<Projekte />} />
+            <Route path='weatherGuru' element={<WeatherGuru />} />
+            <Route path='ecoMania' element={<EcoMania />} />
+            <Route path='cooLet' element={<CooLet />} />
+            <Route path='passwordGolem' element={<PasswordGolem />} />
+            <Route path='meinErstesBackend' element={<ShoeBackend />} />
+            <Route path='quizGame' element={<QuizGame />} />
+            <Route path='schereSteinPapier' element={<RockPaperScissors />} />
+            <Route path='todoListe' element={<TodoList />} />
+            <Route path='randomFact' element={<RandomFact />} />
+            <Route path='portfolio' element={<Portfolio />} />
+          </Route>
           <Route path='kontakt' element={<Contact />} />
         </Route>
       </Routes>

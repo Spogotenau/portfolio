@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import background from '../../images/cube-background-2484131_1920.jpg'
-import me from '../../images/mehomeNew.png'
+import me from '../../images/me2.png'
 import jsLogo from '../../images/jsLogo.png'
+import typescriptLogo from '../../images/typescriptLogo.png'
 import htmlLogo from '../../images/hmtlLogo.png'
 import cssLogo from '../../images/cssLogo.png'
 import cSharpLogo from '../../images/cSharpLogo.png'
@@ -16,6 +17,7 @@ import firebaseLogo from '../../images/firebaseLogo.png'
 import aspDotNetLogo from '../../images/ASPNETLogo.png'
 import arbeitsPlatz from '../../images/IMG_8600.jpg'
 import lightbulb from '../../images/lightbulp.png'
+import javaLogo from '../../images/javaLogo.png'
 
 function Startseite() {
   useEffect(() => {
@@ -60,7 +62,7 @@ function Startseite() {
               <img
                 src={me}
                 alt='Bild von mir Jan Vontobel'
-                className='personImg relative z-20 left-4 md:ease-in-out duration-300'
+                className='personImg relative z-20 left-8 md:ease-in-out duration-300'
               />
             </div>
           </div>
@@ -71,15 +73,17 @@ function Startseite() {
           Was mache ich
         </h2>
         <p className='mx-auto text-xl max-w-2xl'>
-          In den letzten 2 Jahren habe ich eine Leidenschaft für die
+          In den letzten 3 Jahren habe ich eine Leidenschaft für die
           Applikationsentwicklung entdeckt, die ich vor meinem Eintritt in die
           Informatikmittelschule so nicht erwartet hätte. Mit besonderem Fokus
           auf die Webentwicklung habe ich schon einige schulische, wie auch
           private Projekte realisiert. In der Entwicklung von Webseiten kann ich
-          meiner Kreativität freien lauf lassen und mir immer wieder neue
-          Grenzen setzen. In meinem Praktikum erhoffe ich mir, dass ich meine
-          Kreativität wie auch meine Fähigkeiten einzusetzen lerne und diese
-          auch noch erweitere.
+          meiner Kreativität freien Lauf lassen und mir immer wieder neue
+          Grenzen setzen. Besonders interessant finde ich die Möglichkeit, neben
+          der Frontend-Entwicklung auch Backends zu programmieren, um
+          vollständige Applikationen zu entwickeln. In meinem Praktikum erhoffe
+          ich mir, dass ich meine Kreativität wie auch meine Fähigkeiten
+          einzusetzen lerne und diese auch noch erweitere.
         </p>
         <button className='linkButton mt-20 mx-auto text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
           <Link to='/überMich'>Erfahren Sie mehr über mich</Link>
@@ -91,6 +95,14 @@ function Startseite() {
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={jsLogo} alt='JavaScript' />
             <h1 className=' text-center text-lg'>JavaScript</h1>
+          </div>
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img
+              className=' h-52 py-4 mx-auto'
+              src={typescriptLogo}
+              alt='TypeScript'
+            />
+            <h1 className=' text-center text-lg'>TypeScript</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={cssLogo} alt='CSS' />
@@ -107,6 +119,10 @@ function Startseite() {
               alt='C-Sharp'
             />
             <h1 className=' text-center text-lg'>C#</h1>
+          </div>
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={javaLogo} alt='Java' />
+            <h1 className=' text-center text-lg'>Java</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={gitLogo} alt='Git' />
@@ -167,16 +183,18 @@ function Startseite() {
             Meine Projekte
           </h2>
           <p className='text-xl max-w-2xl text-slate-700'>
-            Aus Neugier gegenüber neuen Methoden um Projekte zu realisieren,
+            Aus Neugier gegenüber neuen Methoden, um Projekte zu realisieren,
             stelle ich mich bei jedem meiner Projekte neuen Herausforderungen.
             Mit einer Liebe fürs Detail gefällt mir die Arbeit im Webbereich am
             besten, weshalb ein Grossteil meiner privaten Projekte auch
             Webapplikationen sind. Ich programmiere auch mit C#. In Verbindung
-            mit der Webentwicklung kann ich C# dann auch in der Entwicklung von
-            Backends anwenden. Momentan bin ich dabei, erste Projekte mit dem
-            JavaScript Framework React zu realisieren, da dieses Framework sehr
-            interessant ist und auch eines der meistbenutzten JavaScript
-            Frameworks ist.
+            mit der Webentwicklung kann ich C# in der Entwicklung von Backends
+            anwenden. Zudem habe ich bereits erste Erfahrungen mit Java gemacht,
+            was sich nicht stark von C# unterscheidet. In Zukunft würde ich
+            gerne lernen, wie man in Java Backends entwickelt, zum Beispiel mit
+            Spring Boot. Ich habe bereits einige Projekte mit React und
+            TypeScript realisiert, da ich dieses Framework sehr interessant
+            finde und es auch weit verbreitet ist.
           </p>
           <button className='mt-20 flex mx-auto justify-center text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
             <Link to='/projekte'>Zu meinen Projekten</Link>
