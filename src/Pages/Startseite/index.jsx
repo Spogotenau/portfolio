@@ -81,9 +81,10 @@ function Startseite() {
           meiner Kreativität freien Lauf lassen und mir immer wieder neue
           Grenzen setzen. Besonders interessant finde ich die Möglichkeit, neben
           der Frontend-Entwicklung auch Backends zu programmieren, um
-          vollständige Applikationen zu entwickeln. In meinem Praktikum erhoffe
-          ich mir, dass ich meine Kreativität wie auch meine Fähigkeiten
-          einzusetzen lerne und diese auch noch erweitere.
+          vollständige Applikationen zu entwickeln. Ich bin immer offen neue
+          Technologien zu lernen. In meinem Praktikum erhoffe ich mir, dass ich
+          meine Kreativität wie auch meine Fähigkeiten einzusetzen lerne und
+          diese auch noch erweitere.
         </p>
         <button className='linkButton mt-20 mx-auto text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
           <Link to='/überMich'>Erfahren Sie mehr über mich</Link>
