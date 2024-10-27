@@ -53,7 +53,7 @@ function AboutMe() {
               </p>
               <p className=' text-sky-500 font-bold'>
                 Informatikmittelschule IMS Baden,
-                <br /> 3. Jahr abgeschlossen
+                <br /> 3. Jahr erfolgreich abgeschlossen
               </p>
             </div>
           </div>
