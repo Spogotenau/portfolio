@@ -75,16 +75,16 @@ function Startseite() {
         <p className='mx-auto text-xl max-w-2xl'>
           In den letzten 3 Jahren habe ich eine Leidenschaft für die
           Applikationsentwicklung entdeckt, die ich vor meinem Eintritt in die
-          Informatikmittelschule so nicht erwartet hätte. Mit besonderem Fokus
-          auf die Webentwicklung habe ich schon einige schulische, wie auch
-          private Projekte realisiert. In der Entwicklung von Webseiten kann ich
-          meiner Kreativität freien Lauf lassen und mir immer wieder neue
-          Grenzen setzen. Besonders interessant finde ich die Möglichkeit, neben
-          der Frontend-Entwicklung auch Backends zu programmieren, um
-          vollständige Applikationen zu entwickeln. Ich bin immer offen neue
-          Technologien zu lernen. In meinem Praktikum erhoffe ich mir, dass ich
-          meine Kreativität wie auch meine Fähigkeiten einzusetzen lerne und
-          diese auch noch erweitere.
+          Informatikmittelschule so nicht erwartet hätte. Mit Fokus auf die
+          Webentwicklung habe ich schon einige schulische, wie auch private
+          Projekte realisiert. In der Entwicklung von Webseiten kann ich meiner
+          Kreativität freien Lauf lassen und mir immer wieder neue Grenzen
+          setzen. Besonders interessant finde ich die Möglichkeit, neben der
+          Frontend-Entwicklung auch Backends zu programmieren, um vollständige
+          Applikationen zu entwickeln. Ich bin immer offen neue Technologien zu
+          lernen. In meinem Praktikum erhoffe ich mir, dass ich meine
+          Kreativität wie auch meine Fähigkeiten einzusetzen lerne und diese
+          auch noch erweitere.
         </p>
         <button className='linkButton mt-20 mx-auto text-lg md:text-xl text-gray-200 bg-sky-700 hover:bg-sky-800 font-medium rounded-lg px-5 py-3.5'>
           <Link to='/überMich'>Erfahren Sie mehr über mich</Link>
