@@ -18,6 +18,7 @@ import aspDotNetLogo from '../../images/ASPNETLogo.png'
 import arbeitsPlatz from '../../images/IMG_8600.jpg'
 import lightbulb from '../../images/lightbulp.png'
 import javaLogo from '../../images/javaLogo.png'
+import sqlLogo from '../../images/sqlLogo.png'
 
 function Startseite() {
   useEffect(() => {
@@ -136,6 +137,10 @@ function Startseite() {
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={reactLogo} alt='React' />
             <h1 className=' text-center text-lg'>React</h1>
+          </div>
+          <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
+            <img className=' h-52 py-4 mx-auto' src={sqlLogo} alt='SQL' />
+            <h1 className=' text-center text-lg'>SQL</h1>
           </div>
           <div className='hiddenElement bg-gray-200 w-52 h-52 rounded-xl'>
             <img className=' h-52 py-4 mx-auto' src={mongoLogo} alt='MongoDB' />
