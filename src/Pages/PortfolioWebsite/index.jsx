@@ -9,7 +9,7 @@ function Portfolio() {
         </h1>
         <h1 className=' text-center text-xl md:text-2xl '>
           <Link
-            to='https://github.com/SpogotenauPOGGERS/portfolio'
+            to='https://github.com/Spogotenau/portfolio'
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-sky-700'

@@ -9,7 +9,7 @@ function RandomFact() {
         </h1>
         <h1 className=' text-center text-xl md:text-2xl '>
           <Link
-            to='https://github.com/SpogotenauPOGGERS/RandomFact'
+            to='https://github.com/Spogotenau/RandomFact'
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-sky-700'

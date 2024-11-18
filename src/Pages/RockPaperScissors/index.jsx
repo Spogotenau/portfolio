@@ -9,7 +9,7 @@ function RockPaperScissors() {
         </h1>
         <h1 className=' text-center text-xl md:text-2xl '>
           <Link
-            to='https://github.com/SpogotenauPOGGERS/RockPaperScissors'
+            to='https://github.com/Spogotenau/RockPaperScissors'
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-sky-700'

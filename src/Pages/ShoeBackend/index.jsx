@@ -9,7 +9,7 @@ function ShoeBackend() {
         </h1>
         <h1 className=' text-center text-xl md:text-2xl '>
           <Link
-            to='https://github.com/SpogotenauPOGGERS/LA_1303'
+            to='https://github.com/Spogotenau/LA_1303'
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-sky-700'
