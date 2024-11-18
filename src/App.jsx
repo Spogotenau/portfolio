@@ -16,6 +16,7 @@ import RandomFact from './Pages/RandomFact'
 import Portfolio from './Pages/PortfolioWebsite'
 import Contact from './Pages/Contact'
 import EcoMania from './Pages/EcoMania'
+import LibraryAPI from './Pages/LibraryAPI'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -37,8 +38,9 @@ function App() {
           <Route path='überMich' element={<AboutMe />} />
           <Route path='projekte'>
             <Route index element={<Projekte />} />
-            <Route path='weatherGuru' element={<WeatherGuru />} />
+            <Route path='libraryAPI' element={<LibraryAPI />} />
             <Route path='ecoMania' element={<EcoMania />} />
+            <Route path='weatherGuru' element={<WeatherGuru />} />
             <Route path='cooLet' element={<CooLet />} />
             <Route path='passwordGolem' element={<PasswordGolem />} />
             <Route path='meinErstesBackend' element={<ShoeBackend />} />

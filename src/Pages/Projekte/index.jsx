@@ -8,6 +8,7 @@ import rockPaperScissors from '../../images/rockPaperScissors.png'
 import randomFact from '../../images/randomFacts.png'
 import portfolio from '../../images/portfolioScreen.png'
 import ecoMania from '../../images/idpaScreen.png'
+import libraryAPI from '../../images/libraryAPI.png'
 import { Link } from 'react-router-dom'
 
 function Projekte() {
@@ -18,17 +19,17 @@ function Projekte() {
       </div>
       <div className=' grid md:grid-cols-2 overflow-hidden pb-20'>
         <div className='project mt-20 border-2 rounded-3xl shadow-2xl shadow-slate-800 border-slate-600 overflow-hidden w-11/12 md:w-[550px] md:h-[341.75px] mx-auto'>
-          <Link to='/projekte/weatherguru'>
+          <Link to='/projekte/libraryAPI'>
             <img
-              src={weatherApp}
-              alt='Weather Guru'
+              src={libraryAPI}
+              alt='Library-API'
               className=' w-[550px] md:h-[295.92px] md:object-cover'
             />
             <div className='description weatherGuru bg-gray-300 top-0 relative'>
-              <h1 className=' text-2xl px-2 py-1'>Weather Guru</h1>
+              <h1 className=' text-2xl px-2 py-1'>Library-API</h1>
               <p className=' text-lg px-2 pb-1'>
-                Weather Guru ist eine Wetter App, welche die aktuelle Temperatur
-                von verschiedenen Orten der Welt zurückgibt.
+                Library-API ist eine Bücher API, welche Nutzern die Möglichkeit
+                bietet gelesene Bücher festzuhalten.
               </p>
             </div>
           </Link>
@@ -45,6 +46,22 @@ function Projekte() {
               <p className=' text-lg px-2 pb-1'>
                 EcoMania ist ein Online-Lernplattform um sich spielerisch auf
                 Prüfungen vorzubereiten.
+              </p>
+            </div>
+          </Link>
+        </div>
+        <div className='project mt-20 border-2 rounded-3xl shadow-2xl shadow-slate-800 border-slate-600 overflow-hidden w-11/12 md:w-[550px] md:h-[341.75px] mx-auto'>
+          <Link to='/projekte/weatherguru'>
+            <img
+              src={weatherApp}
+              alt='Weather Guru'
+              className=' w-[550px] md:h-[295.92px] md:object-cover'
+            />
+            <div className='description weatherGuru bg-gray-300 top-0 relative'>
+              <h1 className=' text-2xl px-2 py-1'>Weather Guru</h1>
+              <p className=' text-lg px-2 pb-1'>
+                Weather Guru ist eine Wetter App, welche die aktuelle Temperatur
+                von verschiedenen Orten der Welt zurückgibt.
               </p>
             </div>
           </Link>
