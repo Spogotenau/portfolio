@@ -9,6 +9,7 @@ import randomFact from '../../images/randomFacts.png'
 import portfolio from '../../images/portfolioScreen.png'
 import ecoMania from '../../images/idpaScreen.png'
 import libraryAPI from '../../images/libraryAPI.png'
+import libraryClient from '../../images/LibraryClient.png'
 import { Link } from 'react-router-dom'
 
 function Projekte() {
@@ -18,6 +19,22 @@ function Projekte() {
         <h1 className=' text-3xl text-center'>Meine Projekte</h1>
       </div>
       <div className=' grid md:grid-cols-2 overflow-hidden pb-20'>
+        <div className='project mt-20 border-2 rounded-3xl shadow-2xl shadow-slate-800 border-slate-600 overflow-hidden w-11/12 md:w-[550px] md:h-[341.75px] mx-auto'>
+          <Link to='/projekte/library-client'>
+            <img
+              src={libraryClient}
+              alt='Library-Client'
+              className=' w-[550px] md:h-[295.92px] md:object-cover'
+            />
+            <div className='description weatherGuru bg-gray-300 top-0 relative'>
+              <h1 className=' text-2xl px-2 py-1'>Library-Client</h1>
+              <p className=' text-lg px-2 pb-1'>
+                Library-Client gibt Nutzern die Möglichkeit auf einer grafischen
+                oberfläche gelesene Bücher festzuhalten.
+              </p>
+            </div>
+          </Link>
+        </div>
         <div className='project mt-20 border-2 rounded-3xl shadow-2xl shadow-slate-800 border-slate-600 overflow-hidden w-11/12 md:w-[550px] md:h-[341.75px] mx-auto'>
           <Link to='/projekte/libraryAPI'>
             <img
