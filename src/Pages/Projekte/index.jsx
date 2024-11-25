@@ -9,7 +9,7 @@ import randomFact from '../../images/randomFacts.png'
 import portfolio from '../../images/portfolioScreen.png'
 import ecoMania from '../../images/idpaScreen.png'
 import libraryAPI from '../../images/libraryAPI.png'
-import libraryClient from '../../images/LibraryClient.png'
+import libraryClient from '../../images/libraryClient.png'
 import { Link } from 'react-router-dom'
 
 function Projekte() {
