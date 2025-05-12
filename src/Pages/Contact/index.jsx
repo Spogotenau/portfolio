@@ -36,14 +36,6 @@ function Contact() {
             </Link>
           </div>
         </div>
-        <div>
-          <h1 className='text-lg text-center'>Mobile</h1>
-          <div className='text-center'>
-            <Link to='tel:+41774692528' className='text-lg text-sky-500'>
-              +41 77 469 25 28
-            </Link>
-          </div>
-        </div>
       </div>
     </>
   )
