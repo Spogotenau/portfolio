@@ -19,6 +19,7 @@ import EcoMania from './Pages/EcoMania'
 import LibraryAPI from './Pages/LibraryAPI'
 import LibraryClient from './Pages/LibraryClient'
 import Privacy from './Pages/Privacy'
+import Support from './Pages/Support'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -56,6 +57,7 @@ function App() {
           <Route path='kontakt' element={<Contact />} />
         </Route>
         <Route path='/privacy' element={<Privacy />} />
+        <Route path='/support' element={<Support />} />
       </Routes>
     </BrowserRouter>
   )
