@@ -13,9 +13,13 @@ export default function Support() {
       setIsSending(true)
 
       emailjs
-        .sendForm('service_kpaab67', 'template_t5l9yjl', form.current, {
-          publicKey: '9a5-THq1cEf2_dQK5',
-        })
+      emailjs
+        .sendForm(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          form.current,
+          { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
+        )
         .then(
           () => {
             setIsSending(false)
